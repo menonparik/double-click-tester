@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Double Click Test</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/script.js"></script>r
+</head>
+<body oncontextmenu= "return false"> 
+    <nav class = "navbar">
+        <div class="title">Double Click Tester</div>
+        <div class="link">
+            <a href="./about.html">About</a>
+        </div>
+    </nav>
+
+    <section class = "main">
+        <div class="container">
+            <h1>Check your mouse for double clicks.</h1>
+            <button id = "click">Click here</button>
+            <div class="grid">
+                <div class="item left">
+                    <h3>Left</h3>
+                    <p>Clicks: <span id="clickleft">0</span> </p>
+                    <p>Double Clicks: <span id="doubleclickleft">0</span></p>
+                </div>
+                <div class="item middle">
+                    <h3>Middle</h3>
+                    <p>Clicks: <span id="clickmid">0</span> </p>
+                    <p>Double Clicks: <span id="doublemid">0</span></p>
+                </div>
+                <div class="item right">
+                    <h3>Right</h3>
+                    <p>Clicks: <span id="clickright">0</span></p>
+                    <p>Double Clicks: <span id="doubleright">0</span></p>
+                </div>
+            </div>
+            <button id="reset">Reset Clicks</button>
+        </div>
+    </section>
+</body>
+</html>
